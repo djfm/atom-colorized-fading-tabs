@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle colorized-fading-tabs",
+        "command": "colorized-fading-tabs:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "colorized-fading-tabs",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "colorized-fading-tabs:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

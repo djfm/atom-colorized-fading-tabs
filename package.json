@@ -1,0 +1,27 @@
+{
+  "name": "colorized-fading-tabs",
+  "main": "./lib/colorized-fading-tabs",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "colorized-fading-tabs:toggle"
+  },
+  "repository": "https://github.com/atom/colorized-fading-tabs",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "hex-rgb": "^4.0.0",
+    "postcss-complementary": "^1.1.1",
+    "randomcolor": "^0.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
